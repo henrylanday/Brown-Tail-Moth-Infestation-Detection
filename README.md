@@ -79,6 +79,10 @@ A helper method that combines two images, one from training set folder and one f
 Contains the datasets used to train (SEN12MS) and test (Drone_Images) the GAN
 
 ### SEN12MS <a name="sen12ms"></a>
-A folder that contains the RGB-NIR paired images in two versions: 1) the raw, separated images, and 2) the combined images where the 2 separate images are combined side-by-side into a single image. The [SEN12MS](https://inkyusa.github.io/deepNIR_dataset/download/synth/) dataset is an open source dataset of over 180,000 RGB-NIR paired images.
+![https://github.com/Tahiya31/DavisAI_BTM/blob/main/coordinate_mapping/results/combined.png](https://github.com/Tahiya31/DavisAI_BTM/blob/main/Pix2Pix/SEN12MS_combined_examples/ROIs1158_spring_s000001_p000041.png)
+
+Data that contains the RGB-NIR paired satellite images used to train the GAN. The [SEN12MS](https://inkyusa.github.io/deepNIR_dataset/download/synth/) dataset is an open source dataset of over 180,000 RGB-NIR paired images.
 ### Drone_Images <a name="drone_images"></a>
-A folder that contains over 5000 aerial drone images of trees that either both infested with BTMs or healthy. The images were collected on December 22, 2022.
+<img src="https://github.com/Tahiya31/DavisAI_BTM/blob/main/Pix2Pix/test_drone_images/Waterville%20Brown%20Tail%202022-54.jpg" alt="Drone Image" width="450" style="object-fit: contain;" />
+
+Dataset that contains over 5000 aerial drone images of trees that either both infested with BTMs or healthy. The images were collected on December 22, 2022.
