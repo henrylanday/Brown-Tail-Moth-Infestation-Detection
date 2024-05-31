@@ -84,5 +84,4 @@ Contains the datasets used to train (SEN12MS) and test (Drone_Images) the GAN
 Data that contains the RGB-NIR paired satellite images used to train the GAN. The [SEN12MS](https://inkyusa.github.io/deepNIR_dataset/download/synth/) dataset is an open source dataset of over 180,000 RGB-NIR paired images.
 ### Drone_Images <a name="drone_images"></a>
 <img src="https://github.com/Tahiya31/DavisAI_BTM/blob/main/Pix2Pix/test_drone_images/Waterville%20Brown%20Tail%202022-54.jpg" alt="Drone Image" width="450" style="object-fit: contain;" />
-
 Dataset that contains over 5000 aerial drone images of trees that either both infested with BTMs or healthy. The images were collected on December 22, 2022.
