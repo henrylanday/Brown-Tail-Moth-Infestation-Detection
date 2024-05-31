@@ -17,14 +17,14 @@
   - [Drone_Images](#drone_images)
 
 ## Project Goal <a name="project-goals"></a>
-The goal of this project was to develop a computer vision pipeline to detect Brown Tail Moth infestations using drone footage by performing image processing, data analysis, training an AI model, and mapping the detected infestations. To do so, we attempt to conduct RGB to NIR image-to-image translation using a Pix2Pix GAN model with the goal of making BTM overwintering pods more visible to a object detection AI model.
+The goal of this project was to develop a computer vision pipeline to detect Brown Tail Moth infestations using drone footage by performing image processing, data analysis, training an AI model, and mapping the detected infestations. To do so, we attempt to conduct RGB to NIR image-to-image translation using a Pix2Pix GAN model with the goal of making BTM overwintering pods more visible to an object detection AI model.
 
 ## Results <a name="results"></a>
-<img src="https://github.com/Tahiya31/DavisAI_BTM/raw/main/Pix2Pix/test_drone_images/Waterville%20Brown%20Tail%202022-69.jpg" alt="Image 2" width="256" height="256" style="object-fit: contain;" /> <img src="https://github.com/Tahiya31/DavisAI_BTM/raw/main/Pix2Pix/saved_images/generated_image_Waterville%20Brown%20Tail%202022-69.png" alt="Image 1" width="256" height="256" /> </div>
+<img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/test_drone_images/Waterville%20Brown%20Tail%202022-69.jpg" alt="Image 2" width="256" height="256" style="object-fit: contain;" /> <img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/saved_images/generated_image_Waterville%20Brown%20Tail%202022-69.png" alt="Image 1" width="256" height="256" /> </div>
 
 </div>
 
-The above figures show the generator does not do a very good job at simulating the NIR channel using the drone captured images. Possible reasons that the model does not perform well are 1) the data it was trained is too dissimilar from the data it is being used for and 2) the model produces images in the RGB colorspace instead of in grayscale
+The above figures show the generator does not do a very good job at simulating the NIR channel using the drone captured images. Possible reasons that the model does not perform well are 1) the data it was trained is too dissimilar from the data it is being used for and 2) the model produces images in the RGB color space instead of in grayscale.
 
 ## Getting Started <a name="getting-started"></a>
 1. Download the Pix2Pix folder
@@ -39,10 +39,10 @@ The above figures show the generator does not do a very good job at simulating t
 
 ### Coordinate_Mapping <a name="coordinate_mapping"></a>
 <div style="display: flex;">
-    <img src="https://github.com/Tahiya31/DavisAI_BTM/blob/main/coordinate_mapping/results/manual-only-coords.png" alt="Mapping Manual" width="300" style="object-fit: contain;"/>
-    <img src="https://github.com/Tahiya31/DavisAI_BTM/blob/main/coordinate_mapping/results/drone-only-coords.png" alt="Mapping Drone" width="212" style="object-fit: contain;"/>
+    <img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/coordinate_mapping/results/manual-only-coords.png" alt="Mapping Manual" width="300" style="object-fit: contain;"/>
+    <img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/coordinate_mapping/results/drone-only-coords.png" alt="Mapping Drone" width="212" style="object-fit: contain;"/>
 </div>
-<img src="https://github.com/Tahiya31/DavisAI_BTM/blob/main/coordinate_mapping/results/combined.png" alt="Mapping Both" style="object-fit: contain;"/>
+<img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/coordinate_mapping/results/combined.png" alt="Mapping Both" style="object-fit: contain;"/>
 
 Contains the python scripts in order to extract the metadata (latitude, longitude,  etc.) from the images in a Mac folder, and maps that coordinates of the manually captured data (black circles) vs. the coordinates of the drone captured data (colored circles; blue to red maps when the images were taken on December 22, 2022, early to late) using the Folium python package. As we can see, there is a surprising lack of overlap between the two datasets making them difficult to use in conjunction with one another.
 
