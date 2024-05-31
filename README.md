@@ -20,7 +20,7 @@
 The goal of this project was to develop a computer vision pipeline to detect Brown Tail Moth infestations using drone footage by performing image processing, data analysis, training an AI model, and mapping the detected infestations. To do so, we attempt to conduct RGB to NIR image-to-image translation using a Pix2Pix GAN model with the goal of making BTM overwintering pods more visible to an object detection AI model.
 
 ## Results <a name="results"></a>
-<img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/test_drone_images/Waterville%20Brown%20Tail%202022-69.jpg" alt="Image 2" width="256" height="256" style="object-fit: contain;" /> <img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/saved_images/generated_image_Waterville%20Brown%20Tail%202022-69.png" alt="Image 1" width="256" height="256" /> </div>
+<img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/GitHub_ReadMe_images/Waterville%20Brown%20Tail%202022-69.jpg" alt="Image 2" width="256" height="256" style="object-fit: contain;" /> <img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/saved_images/generated_image_Waterville%20Brown%20Tail%202022-69.png" alt="Image 1" width="256" height="256" /> </div>
 
 </div>
 
@@ -87,5 +87,5 @@ Contains the datasets used to train (SEN12MS) and test (Drone_Images) the GAN
 
 Data that contains the RGB-NIR paired satellite images used to train the GAN. The [SEN12MS](https://inkyusa.github.io/deepNIR_dataset/download/synth/) dataset is an open source dataset of over 180,000 RGB-NIR paired images.
 ### Drone_Images <a name="drone_images"></a>
-<img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/test_drone_images/Waterville%20Brown%20Tail%202022-54.jpg" alt="Drone Image" width="450" style="object-fit: contain;" />
+<img src="https://github.com/henrylanday/AI-Brown-Tail-Moth-Infestation-Detection/blob/main/Pix2Pix/GitHub_ReadMe_images/Waterville%20Brown%20Tail%202022-54.jpeg" alt="Drone Image" width="450" style="object-fit: contain;" />
 Dataset that contains over 5000 aerial drone images of trees that either both infested with BTMs or healthy. The images were collected on December 22, 2022.
