@@ -51,9 +51,13 @@ This is the only folder needed in order to run train/validate/test the GAN. In t
 
 <ins>**GAN Creation Files**</ins> <a name="GAN_creation_files"></a>
 
-<sub> *Must change one of 3 'dataset_xyz.py' files to 'dataset.py' depending on what dataset you want to work with (if using SEN12MS dataset, rename 'dataset_SEN12MS.py' --> 'dataset.py')* </sub>
+**Important:** _Must change one of 3 'dataset_xyz.py' files to 'dataset.py' depending on what dataset you want to work with (if using SEN12MS dataset, rename 'dataset_SEN12MS.py' --> 'dataset.py')_
 
-<sub> *Change the output file name in 'config.py'; output files will build on top of previous training if name is not changed* </sub>
+**Important:** _Change the output file name in 'config.py'; output files will build on top of previous training if name is not changed_
+
+
+
+
 
 - config.py
 - dataset_anime.py
