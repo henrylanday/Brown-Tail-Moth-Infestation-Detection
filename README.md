@@ -1,4 +1,4 @@
-# AI Based Brown Tail Moth Infestation Detection
+# ML Based Brown Tail Moth Infestation Detection
 
 ## A fully functional implementation of the Pix2Pix GAN used to conduct image-to-image translation between the RGB and NIR color-spaces
 
